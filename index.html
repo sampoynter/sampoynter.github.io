@@ -32,11 +32,11 @@
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Sam Poynter</h1>
-									<p>Hello, I am a recent Michigan State graduate looking to kickstart a career in UX Research or Design!</p>
+									<p>Hello, I am a recent Michigan State graduate looking to kickstart a career in UX or Product Management!</p>
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/Sam-Poynter.jpg" alt="Picture of me" />
+									<img src="images/Sam-Poynter.png" alt="Picture of me" />
 								</a>
 							</article>
 
@@ -54,7 +54,7 @@
 											<a href="#ux-case-study" class="image fit"><img src="images/AllTrails-Logo.png" alt="Banana stand website"></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/signal-logo.png" alt="Mental health app design"></a>
+											<a href="#signal-report" class="image fit"><img src="images/signal-logo.png" alt="Mental health app design"></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="#" class="image fit"><img src="images/plant-website.jpg" alt="Plant website"></a>
@@ -202,9 +202,337 @@
 											</ul>
 										</div>
 									</div>
-									<div class="row" style="margin-top: 2em;">
+								</section>
+
+								<!-- Results -->
+								<section style="margin-bottom: 4em;">
+									<div class="row">
 										<div class="col-12">
-											<img src="images/research-findings.jpg" alt="Research findings" class="image fit">
+											<h3 style="color: #333; border-bottom: 2px solid #9f7aea; padding-bottom: 0.5em; margin-bottom: 1.5em;">Results</h3>
+										</div>
+									</div>
+									
+									<!-- Usability Aspect Reports -->
+									<div class="row" style="margin-bottom: 3em;">
+										<div class="col-12">
+											<h4>Usability Aspect Reports</h4>
+											<p>We tracked and analyzed critical usability issues observed during user testing. These findings helped us understand where users struggled and informed our recommendations for improvement. In total, we created 12 of these usability aspect reports. I have included a few of the most important critical isues below.</p>
+											<!-- Issue #1 -->
+											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #68d391; margin-bottom: 2em; border-radius: 6px;">
+												<h5 style="margin-bottom: 0.5em;">Issue: Inconsistent “Passes & Fees” Section</h5>
+												<p><strong>Observed During:</strong> Task 2</p>
+												<p><strong>What Happened:</strong> Some participants couldn't locate the "Passes & Fees" section on specific trails. There was also an issue of fee amounts not being displayed. These inconsistencies led to confusion and task failure.</p>
+												<p><strong>Why It Matters:</strong> Missing fee information could result in users being unprepared, leading to poor user trust or legal issues (e.g., tickets).</p>
+												<p><strong>Recommendation:</strong> Always display the "Passes & Fees" section—even if no info is available—along with a note like "No fees required." Include the dollar amount of passes and fees to avoid unpreparedness.</p>
+												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin: 2em 0;">
+													“Maybe it only shows it if the trail actually requires a pass, I can't find this section anywhere in the trail information”
+												  </blockquote>
+												  
+											  </div>
+											<!-- Issue #2 -->
+											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #f6ad55; margin-bottom: 2em; border-radius: 6px;">
+												<h5 style="margin-bottom: 0.5em;">Issue: Add-to-List Button Missing or Hidden</h5>
+												<p><strong>Observed During:</strong> Task 4</p>
+												<p><strong>What Happened:</strong> Users had difficulty adding a trail to a list because the “add” or “save” button was either missing or not discoverable on the trail page.</p>
+												<p><strong>Why It Matters:</strong> Adding trails to lists is a core function of the app. If users can’t locate this button, it undermines the organizational features AllTrails promotes.</p>
+												<p><strong>Recommendation:</strong> Ensure every trail page includes a clearly labeled and visible "Save to List" button near the top of the interface.</p>
+												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin-top: 1em;">
+												“The popular trails are added to the list, but I’m not sure how to add this one… I don’t know where the thingy is for this one.”
+												</blockquote>
+											</div>
+											
+											
+											<!-- Issue #3 -->
+											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #63b3ed; margin-bottom: 2em; border-radius: 6px;">
+												<h5 style="margin-bottom: 0.5em;">Issue: Trail Results Organization Confusing</h5>
+												<p><strong>Observed During:</strong> Task 1</p>
+												<p><strong>What Happened:</strong> Participants were unsure whether trail results were ordered by distance, difficulty, or rating. This led to hesitation and second-guessing during the trail selection process.</p>
+												<p><strong>Why It Matters:</strong> If users don’t understand how results are sorted, it adds cognitive load and can make the app feel unpredictable or disorganized.</p>
+												<p><strong>Recommendation:</strong> Clarify how trail results are ordered—e.g., by default sort, distance, rating, or difficulty—using labels or tooltips above the result list.</p>
+												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin-top: 1em;">
+												“I got confused… is it based on how far away it is, or how long it is, or the star rating?”
+												</blockquote>
+											</div>
+											
+											<!-- Issue #4 -->
+											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #fc8181; margin-bottom: 2em; border-radius: 6px;">
+												<h5 style="margin-bottom: 0.5em;">Issue: Can't End a Custom Hike</h5>
+												<p><strong>Observed During:</strong> Task 4 (accidental)</p>
+												<p><strong>What Happened:</strong> One user accidentally started a custom hike while trying to add a trail to a list and then couldn’t figure out how to stop the hike once they left the “Navigate” screen.</p>
+												<p><strong>Why It Matters:</strong> Unintended activity tracking may result in inaccurate data, battery drain, or user frustration—especially if they don’t know the app is still running in the background.</p>
+												<p><strong>Recommendation:</strong> Add a persistent mini-widget or indicator that allows users to pause/end a hike from any screen, or confirm start/stop more clearly within the Navigation UI.</p>
+												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin-top: 1em;">
+												“I’m stuck on the map. How do I get off the custom map now?”
+												</blockquote>
+											</div>
+  
+											  
+										</div>
+									</div>
+									
+									<!-- Summary Table -->
+									<div class="row" style="margin-bottom: 3em;">
+										<div class="col-12">
+											<h4>Summary Table</h4>
+											<p>In the table below, each participant was evaluated on a success/failure basis. A success is
+												defined as completing the given task without requiring assistance, and a failure is defined as requiring additional help from the moderator in order to complete the given task.</p>
+											<img src="images/Summary_Table.png" alt="Summary table for study results" class="image fit">
+										</div>
+									</div>
+								</section>
+
+								<!-- Recommendations -->
+								<section style="margin-bottom: 4em;">
+									<div class="row">
+									<div class="col-12">
+										<h3 style="color: #333; border-bottom: 2px solid #38b2ac; padding-bottom: 0.5em; margin-bottom: 1.5em;">Recommendations</h3>
+										<p style="font-size: 1.1em; line-height: 1.6em;">
+										Based on our usability study, we identified several actionable ways to improve consistency, feature accessibility, and user feedback within the AllTrails mobile app.
+										</p>
+									</div>
+									</div>
+								
+									<div class="row">
+									<div class="col-6 col-12-medium">
+										<h4>Usability Improvements</h4>
+										<ul>
+										<li><strong>Unify page structure:</strong> Ensure all trail pages display standard sections like “Passes and Fees,” even when data is unavailable. Use placeholder text (such as “No fees listed for this trail.”).</li>
+										<li><strong>Clarify sorting of trail lists:</strong> Show users how results are organized (e.g., distance, popularity) to reduce confusion.</li>
+										<li><strong>Rename “Saved” tab to “Lists”:</strong> Makes the feature’s purpose clearer and easier to locate.</li>
+										<li><strong>Make the “Save to List” button consistent:</strong> Ensure users can add trails from any trail page, not just from popular listings.</li>
+										<li><strong>Improve interface consistency:</strong> Parks and trails should share a consistent layout and button options.</li>
+										<li><strong>Rename buttons for clarity:</strong> For example, label the download button as “Download Map” to avoid confusion with saving or bookmarking.</li>
+										<li><strong>Add an “End Hike” button:</strong> Provide an easy way to stop a hike once started. Consider a floating widget with “pause/end” functionality.</li>
+										<li><strong>Enhance feedback indicators:</strong> Lengthen the duration of review submission confirmation popups to reassure users their action was successful.</li>
+										</ul>
+									</div>
+								
+									<div class="col-6 col-12-medium">
+										<h4>Interface & Accessibility Enhancements</h4>
+										<ul>
+										<li><strong>Highlight sorting logic visually:</strong> Bold or label what each trail list is sorted by (e.g., “Sorted by distance”).</li>
+										<li><strong>Improve visibility of key buttons:</strong> Relocate or emphasize hard-to-find actions like “mark as complete.”</li>
+										<li><strong>Use industry standards:</strong> Apply clear navigation, back options, and icon labels to meet user expectations.</li>
+										<li><strong>Label trail actions clearly:</strong> For instance, users should not be able to leave a review without also marking a trail complete.</li>
+										<li><strong>Address premium feature confusion:</strong> Make it more obvious which features are paid vs. free, especially around downloads.</li>
+										</ul>
+									</div>
+									</div>
+								
+									
+								</section>
+
+								<!-- Lessons Learned -->
+								<section style="margin-bottom: 4em;">
+									<div class="row">
+										<div class="col-12">
+											<h3 style="color: #333; border-bottom: 2px solid #9f7aea; padding-bottom: 0.5em; margin-bottom: 1.5em;">Lessons Learned</h3>
+											<div class="row">
+												<div class="col-6 col-12-medium">
+													<h4>What Worked Well</h4>
+													<ul>
+														<li>We developed detailed user personas early, which helped us create realistic, relevant tasks.</li>
+														<li>Running moderated sessions allowed us to observe subtle user frustrations in real-time.</li>
+														<li>Working as a team of four allowed us to divide tasks efficiently: moderation, note-taking, and analysis.</li>
+														<li>We gathered useful qualitative insights that led to actionable recommendations without needing to build a prototype.</li>
+													  </ul>
+												</div>
+												<div class="col-6 col-12-medium">
+													<h4>What I'd Do Differently</h4>
+													<ul>
+														<li>Recruit more than 6 participants, which would allow for more insight into how effective the current app is.</li>
+														<li>Recruit a more diverse range of participants to avoid over-relying on a college-student demographic.</li>
+														<li>Visualize insights with mockups to support recommendations.</li>
+														<li>Add more tasks for users to complete, as there were some parts of the app we did not gert to test.</li>
+														<li>Record more than two critical incidents per participant.</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+
+								<!-- Next Steps -->
+								<section style="margin-bottom: 4em;">
+									<div class="row">
+										<div class="col-12">
+											<h3 style="color: #333; border-bottom: 2px solid #38b2ac; padding-bottom: 0.5em; margin-bottom: 1.5em;">Next Steps</h3>
+											<p>While this was completed for a class, if it were to be an actual commercial project these are some of the next steps I would take:</p>
+											<ul style="margin-top: 1em;">
+												<li><strong>Develop low-fidelity wireframes</strong> to explore solutions for the most critical usability issues, such as saving trails or organizing trail lists.</li>
+												<li><strong>Conduct follow-up testing</strong> using updated tasks and proposed interface changes to validate whether the recommendations improve performance.</li>
+												<li><strong>Expand participant demographics</strong> beyond college students to include parents, older adults, and casual outdoor users for broader insight.</li>
+												<li><strong>Collaborate with designers</strong> to create polished UI mockups that address both visual clarity and accessibility best practices.</li>
+												<li><strong>Present findings to stakeholders</strong> to make the case for design changes and begin the process of actually implementing the ideas within the app.</li>
+											  </ul>
+										</div>
+									</div>
+								</section>
+
+								<!-- Call to Action -->
+								<section style="text-align: center; margin-bottom: 2em;">
+									<div class="row">
+										<div class="col-12">
+											<p><a href="#work" class="button primary">View More Projects</a> <a href="#contact" class="button">Get In Touch</a></p>
+										</div>
+									</div>
+								</section>
+							</article>
+
+							<!-- Signal Heuristic Evaluation and Cognitive Walkthrough -->
+							<article id="signal-report" class="panel">
+								<header>
+									<h2>Signal Messenger Heuristic Evaluation and Cognitive Walkthrough</h2>
+									<p><a href="#work" class="button">← Back to Work</a></p>
+								</header>
+								
+								<!-- Intro Section -->
+								<section style="text-align: center; margin-bottom: 3em;">
+									<img src="images/signal-logo.png" alt="Project hero image" class="image fit" style="max-height: 400px; object-fit: cover;">
+									<div style="margin-top: 2em;">
+										<h3>This study was done for a class project where some fellow students and I conducted a heuristic evaluation and cognitive walkthrough on the Signal Messenger app.</h3>
+										<p style="font-size: 1.1em; color: #666; max-width: 600px; margin: 0 auto;">
+											Signal is a free, open-source messaging app focused on privacy and end-to-end encryption. It allows users to send texts and voice messages, as well as secure calls without collecting or storing personal data.
+										</p>
+									</div>
+								</section>
+
+								<!-- Project Overview -->
+								<section style="margin-bottom: 4em;">
+									<div class="row">
+										<div class="col-3 col-6-medium col-12-small">
+											<h4>Role</h4>
+											<p>UX Researcher</p>
+										</div>
+										<div class="col-3 col-6-medium col-12-small">
+											<h4>Duration</h4>
+											<p>2 weeks<br>(March 2025)</p>
+										</div>
+										<div class="col-3 col-6-medium col-12-small">
+											<h4>Team</h4>
+											<p>Team of 4 MSU Students</p>
+										</div>
+									</div>
+								</section>
+
+								<!-- Problem Statement -->
+								<section style="margin-bottom: 4em;">
+									<div class="row">
+										<div class="col-12">
+											<h3 style="color: #333; border-bottom: 2px solid #f56565; padding-bottom: 0.5em; margin-bottom: 1.5em;">Purpose & Goals</h3>
+											<p style="font-size: 1.1em; line-height: 1.6em;">
+												This evaluation focused on the usability, consistency, and learnability of the Signal Messenger app. Using a combination of <strong>heuristic evaluation</strong> and <strong>cognitive walkthroughs</strong>, our goal was to uncover usability issues that affect the onboarding experience, contact management, privacy controls, and core communication features such as messaging and calling.
+											  </p>
+											  <ul>
+												<li>Evaluate how intuitive Signal’s interface is for first-time users during common tasks like adding contacts or verifying privacy settings</li>
+												<li>Assess whether Signal's UI adheres to standard design heuristics</li>
+												<li>Identify points of friction or confusion that could disrupt core user actions like calling, messaging, or editing settings</li>
+												<li>Generate actionable recommendations that improve usability while preserving the privacy of users</li>
+											  </ul>
+										</div>
+									</div>
+								</section>
+
+								<!-- Methodology -->
+								<section style="margin-bottom: 4em;">
+									<div class="row">
+										<div class="col-12">
+											<h3 style="color: #333; border-bottom: 2px solid #4299e1; padding-bottom: 0.5em; margin-bottom: 1.5em;">Methodology</h3>
+											<p style="font-size: 1.1em; line-height: 1.6em;">
+												<ul>
+													<li><strong>Heuristic Evaluation:</strong> We reviewed Signal using Jakob Nielsen's 10 usability heuristics, providing severity ratings to issues based on frequency, impact on functionality, and persistence</li>
+													<li><strong>Cognitive Walkthrough:</strong> We simulated user flows for two common tasks: verifying authenticity of contacts, and adding a new contact through "New Messages." These tasks were then evaluated from the perspective of a new user.</li>
+												</ul>
+											</p>
+										</div>
+									</div>
+								</section>
+
+								<!-- Heuristic Evaluation -->
+								<section style="margin-bottom: 4em;">
+									<div class="row">
+										<div class="col-12">
+											<h3 style="color: #333; border-bottom: 2px solid #ed8936; padding-bottom: 0.5em; margin-bottom: 1.5em;">Heuristic Evaluation</h3>
+										</div>
+										<div>
+											<p>We began this section with every member of our group completing their own seperate evaluations, and then we consolidated our evaluations into one document. Combined, our team came up with 23 heuristic violations; however, for the sake of this portfolio I will only include violations that I personally found. Note that these are not all of the heuristics I found, and the full report will be linked at the bottom of this page.</p>
+										</div>
+									</div>
+									 <!-- Heuristic Cards -->
+									<div class="row">
+
+										<!-- SP01: Visibility of System Status -->
+										<div class="col-6 col-12-medium" style="margin-bottom: 2em;">
+										<div style="background: #faf5f0; padding: 1.5em; border-left: 4px solid #ed8936; border-radius: 6px;">
+											<h4 style="margin-bottom:0.5em;">User Control and Freedom</h4>
+											<p><strong>Severity:</strong> 2</p>
+											<p><strong>Location:</strong> "Who can find you with your number" page</p>
+											<p><strong>How Violated:</strong> Only gives the user an option to have either everybody or nobody find you with your number without an in between option.</p>
+											<p><strong>Recommendation:</strong> Allow users to select only certain contacts to be able to find the user with their number.</p>
+										</div>
+										</div>
+
+										<!-- SP02: User Control and Freedom -->
+										<div class="col-6 col-12-medium" style="margin-bottom: 2em;">
+										<div style="background: #fff5f5; padding: 1.5em; border-left: 4px solid #f56565; border-radius: 6px;">
+											<h4 style="margin-bottom:0.5em;">Recognition Rather Than Recall</h4>
+											<p><strong>Severity:</strong> 2</p>
+											<p><strong>Location:</strong> "Chats" page</p>
+											<p><strong>How Violated:</strong> In order to filter your messages to see which ones are unread, the user has to either click on their profile in the top left corner or swipe up on the existing chats. Neither of these are very intuitive, and I thought the swipe up would simply refresh the page.</p>
+											<p><strong>Recommendation:</strong> Add a filter button that allows for the user to filter through their messages in various ways, not just through filtering by unread.</p>
+										</div>
+										</div>
+
+										<!-- SP03: Error Prevention -->
+										<div class="col-6 col-12-medium" style="margin-bottom: 2em;">
+										<div style="background: #f0f9ff; padding: 1.5em; border-left: 4px solid #4299e1; border-radius: 6px;">
+											<h4 style="margin-bottom:0.5em;">Error Prevention</h4>
+											<p><strong>Severity:</strong> 3</p>
+											<p><strong>Location:</strong> “Notifications” section of settings</p>
+											<p><strong>How Violated:</strong> When a user clicks on “Re-register Push Notifications” it simply just tells the user that they have successfully re-registered for push notifications without providing further explanation.</p>
+											<p><strong>Recommendation:</strong> Have this option use a button to re-register for push notifications and include a description of what exactly this does so the user knows if they want to or not. Also include the option to undo this.</p>
+										</div>
+										</div>
+
+										<!-- SP05: Recognition Rather Than Recall -->
+										<div class="col-6 col-12-medium" style="margin-bottom: 2em;">
+											<div style="background: #f5f1fe; padding: 1.5em; border-left: 4px solid #9f7aea; border-radius: 6px;">
+											<h4 style="margin-bottom:0.5em;">Help and Documentation</h4>
+											<p><strong>Severity:</strong> 2</p>
+											<p><strong>Location:</strong> Advanced privacy settings</p>
+											<p><strong>How Violated:</strong> Not every advanced privacy feature is explained, there is even a “Censorship Circumnavigation” button that you cannot turn on because “you are already connected to the Signal service” however, it does not explain this in detail.</p>
+											<p><strong>Recommendation:</strong> Have documentation for all of the advanced privacy features, this is only present in the “Sealed Sender” section</p>
+											</div>
+										</div>
+									</div>
+								</section>
+
+								<!-- Cognitive Walkthrough -->
+								<section style="margin-bottom: 4em;">
+									<div class="row">
+										<div class="col-12">
+											<h3 style="color: #333; border-bottom: 2px solid #48bb78; padding-bottom: 0.5em; margin-bottom: 1.5em;">Cognitive Walkthroughs</h3>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<h4>Methodology</h4>
+											<ul>
+												<li>6 Participants - This number was chosen mostly because it was the required number for this assignment.</li>
+												<li>Convenience sampling - Due to the time constraints for this project, this was the only way we cold recruit participants. All participants were Michigan State students betwen 20-25 years old and had experience with mobile apps.</li>
+												<li>In-person and Zoom sessions - Every session included a moderator to facilitate the study and answer questions, as well as a note-taker to observe and record the actions, behaviors, and responses of participants.</li>
+												<li>Session recordings - Each session was documented using an audio recording, allowing for insights to be evidence based.</li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-medium">
+											<h4>Task Descriptions</h4>
+											<p>These tasks were chosen based off of user personas. We tried to emphasize tasks that would help the personas achieve their goals.</p>
+											<ul>
+												<li>Find a dog-friendly trail and check the conditions</li>
+												<li>Locate Sleepy Hollow State Park and see if a pass or fee is required (without using the search function)</li>
+												<li>Mark a nearby trail as complete and leave a simple review</li>
+												<li>Create a new trail list and add an out of state trail</li>
+											</ul>
 										</div>
 									</div>
 								</section>
@@ -221,8 +549,57 @@
 									<div class="row" style="margin-bottom: 3em;">
 										<div class="col-12">
 											<h4>Usability Aspect Reports</h4>
-											<p>To keep track of critical incidents we encountered while doing the usability tests. </p>
-											<img src="images/wireframes.jpg" alt="Wireframes" class="image fit">
+											<p>We tracked and analyzed critical usability issues observed during user testing. These findings helped us understand where users struggled and informed our recommendations for improvement. In total, we created 12 of these usability aspect reports. I have included a few of the most important critical isues below.</p>
+											<!-- Issue #1 -->
+											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #68d391; margin-bottom: 2em; border-radius: 6px;">
+												<h5 style="margin-bottom: 0.5em;">Issue: Inconsistent “Passes & Fees” Section</h5>
+												<p><strong>Observed During:</strong> Task 2</p>
+												<p><strong>What Happened:</strong> Some participants couldn't locate the "Passes & Fees" section on specific trails. There was also an issue of fee amounts not being displayed. These inconsistencies led to confusion and task failure.</p>
+												<p><strong>Why It Matters:</strong> Missing fee information could result in users being unprepared, leading to poor user trust or legal issues (e.g., tickets).</p>
+												<p><strong>Recommendation:</strong> Always display the "Passes & Fees" section—even if no info is available—along with a note like "No fees required." Include the dollar amount of passes and fees to avoid unpreparedness.</p>
+												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin: 2em 0;">
+													“Maybe it only shows it if the trail actually requires a pass, I can't find this section anywhere in the trail information”
+												  </blockquote>
+												  
+											  </div>
+											<!-- Issue #2 -->
+											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #f6ad55; margin-bottom: 2em; border-radius: 6px;">
+												<h5 style="margin-bottom: 0.5em;">Issue: Add-to-List Button Missing or Hidden</h5>
+												<p><strong>Observed During:</strong> Task 4</p>
+												<p><strong>What Happened:</strong> Users had difficulty adding a trail to a list because the “add” or “save” button was either missing or not discoverable on the trail page.</p>
+												<p><strong>Why It Matters:</strong> Adding trails to lists is a core function of the app. If users can’t locate this button, it undermines the organizational features AllTrails promotes.</p>
+												<p><strong>Recommendation:</strong> Ensure every trail page includes a clearly labeled and visible "Save to List" button near the top of the interface.</p>
+												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin-top: 1em;">
+												“The popular trails are added to the list, but I’m not sure how to add this one… I don’t know where the thingy is for this one.”
+												</blockquote>
+											</div>
+											
+											
+											<!-- Issue #3 -->
+											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #63b3ed; margin-bottom: 2em; border-radius: 6px;">
+												<h5 style="margin-bottom: 0.5em;">Issue: Trail Results Organization Confusing</h5>
+												<p><strong>Observed During:</strong> Task 1</p>
+												<p><strong>What Happened:</strong> Participants were unsure whether trail results were ordered by distance, difficulty, or rating. This led to hesitation and second-guessing during the trail selection process.</p>
+												<p><strong>Why It Matters:</strong> If users don’t understand how results are sorted, it adds cognitive load and can make the app feel unpredictable or disorganized.</p>
+												<p><strong>Recommendation:</strong> Clarify how trail results are ordered—e.g., by default sort, distance, rating, or difficulty—using labels or tooltips above the result list.</p>
+												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin-top: 1em;">
+												“I got confused… is it based on how far away it is, or how long it is, or the star rating?”
+												</blockquote>
+											</div>
+											
+											<!-- Issue #4 -->
+											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #fc8181; margin-bottom: 2em; border-radius: 6px;">
+												<h5 style="margin-bottom: 0.5em;">Issue: Can't End a Custom Hike</h5>
+												<p><strong>Observed During:</strong> Task 4 (accidental)</p>
+												<p><strong>What Happened:</strong> One user accidentally started a custom hike while trying to add a trail to a list and then couldn’t figure out how to stop the hike once they left the “Navigate” screen.</p>
+												<p><strong>Why It Matters:</strong> Unintended activity tracking may result in inaccurate data, battery drain, or user frustration—especially if they don’t know the app is still running in the background.</p>
+												<p><strong>Recommendation:</strong> Add a persistent mini-widget or indicator that allows users to pause/end a hike from any screen, or confirm start/stop more clearly within the Navigation UI.</p>
+												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin-top: 1em;">
+												“I’m stuck on the map. How do I get off the custom map now?”
+												</blockquote>
+											</div>
+  
+											  
 										</div>
 									</div>
 									
@@ -230,8 +607,9 @@
 									<div class="row" style="margin-bottom: 3em;">
 										<div class="col-12">
 											<h4>Summary Table</h4>
-											<p>How you built and tested your prototypes.</p>
-											<img src="images/prototypes.jpg" alt="Prototypes" class="image fit">
+											<p>In the table below, each participant was evaluated on a success/failure basis. A success is
+												defined as completing the given task without requiring assistance, and a failure is defined as requiring additional help from the moderator in order to complete the given task.</p>
+											<img src="images/Summary_Table.png" alt="Summary table for study results" class="image fit">
 										</div>
 									</div>
 								</section>
@@ -239,64 +617,42 @@
 								<!-- Recommendations -->
 								<section style="margin-bottom: 4em;">
 									<div class="row">
-										<div class="col-12">
-											<h3 style="color: #333; border-bottom: 2px solid #38b2ac; padding-bottom: 0.5em; margin-bottom: 1.5em;">Recommendations</h3>
-										</div>
+									<div class="col-12">
+										<h3 style="color: #333; border-bottom: 2px solid #38b2ac; padding-bottom: 0.5em; margin-bottom: 1.5em;">Recommendations</h3>
+										<p style="font-size: 1.1em; line-height: 1.6em;">
+										Based on our usability study, we identified several actionable ways to improve consistency, feature accessibility, and user feedback within the AllTrails mobile app.
+										</p>
 									</div>
+									</div>
+								
 									<div class="row">
-										<div class="col-6 col-12-medium">
-											<h4>Key Features</h4>
-											<ul>
-												<li>Feature 1: Brief description</li>
-												<li>Feature 2: Brief description</li>
-												<li>Feature 3: Brief description</li>
-												<li>Feature 4: Brief description</li>
-											</ul>
-										</div>
-										<div class="col-6 col-12-medium">
-											<h4>Design Highlights</h4>
-											<ul>
-												<li>Intuitive navigation</li>
-												<li>Accessible design</li>
-												<li>Mobile-responsive</li>
-												<li>User-centered approach</li>
-											</ul>
-										</div>
+									<div class="col-6 col-12-medium">
+										<h4>Usability Improvements</h4>
+										<ul>
+										<li><strong>Unify page structure:</strong> Ensure all trail pages display standard sections like “Passes and Fees,” even when data is unavailable. Use placeholder text (such as “No fees listed for this trail.”).</li>
+										<li><strong>Clarify sorting of trail lists:</strong> Show users how results are organized (e.g., distance, popularity) to reduce confusion.</li>
+										<li><strong>Rename “Saved” tab to “Lists”:</strong> Makes the feature’s purpose clearer and easier to locate.</li>
+										<li><strong>Make the “Save to List” button consistent:</strong> Ensure users can add trails from any trail page, not just from popular listings.</li>
+										<li><strong>Improve interface consistency:</strong> Parks and trails should share a consistent layout and button options.</li>
+										<li><strong>Rename buttons for clarity:</strong> For example, label the download button as “Download Map” to avoid confusion with saving or bookmarking.</li>
+										<li><strong>Add an “End Hike” button:</strong> Provide an easy way to stop a hike once started. Consider a floating widget with “pause/end” functionality.</li>
+										<li><strong>Enhance feedback indicators:</strong> Lengthen the duration of review submission confirmation popups to reassure users their action was successful.</li>
+										</ul>
 									</div>
-									<div class="row" style="margin-top: 2em;">
-										<div class="col-12">
-											<img src="images/final-solution.jpg" alt="Final solution" class="image fit">
-										</div>
+								
+									<div class="col-6 col-12-medium">
+										<h4>Interface & Accessibility Enhancements</h4>
+										<ul>
+										<li><strong>Highlight sorting logic visually:</strong> Bold or label what each trail list is sorted by (e.g., “Sorted by distance”).</li>
+										<li><strong>Improve visibility of key buttons:</strong> Relocate or emphasize hard-to-find actions like “mark as complete.”</li>
+										<li><strong>Use industry standards:</strong> Apply clear navigation, back options, and icon labels to meet user expectations.</li>
+										<li><strong>Label trail actions clearly:</strong> For instance, users should not be able to leave a review without also marking a trail complete.</li>
+										<li><strong>Address premium feature confusion:</strong> Make it more obvious which features are paid vs. free, especially around downloads.</li>
+										</ul>
 									</div>
-								</section>
-
-								<!-- Results & Impact -->
-								<section style="margin-bottom: 4em;">
-									<div class="row">
-										<div class="col-12">
-											<h3 style="color: #333; border-bottom: 2px solid #f56565; padding-bottom: 0.5em; margin-bottom: 1.5em;">Results & Impact</h3>
-										</div>
 									</div>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<div style="text-align: center; background: #f7fafc; padding: 1.5em; border-radius: 8px;">
-												<h4 style="color: #4299e1; font-size: 2em; margin-bottom: 0.5em;">XX%</h4>
-												<p>Improvement in user satisfaction</p>
-											</div>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<div style="text-align: center; background: #f7fafc; padding: 1.5em; border-radius: 8px;">
-												<h4 style="color: #48bb78; font-size: 2em; margin-bottom: 0.5em;">XX%</h4>
-												<p>Reduction in task completion time</p>
-											</div>
-										</div>
-										<div class="col-4 col-12-medium col-12-small">
-											<div style="text-align: center; background: #f7fafc; padding: 1.5em; border-radius: 8px;">
-												<h4 style="color: #ed8936; font-size: 2em; margin-bottom: 0.5em;">XX%</h4>
-												<p>Increase in user engagement</p>
-											</div>
-										</div>
-									</div>
+								
+									
 								</section>
 
 								<!-- Lessons Learned -->
@@ -308,17 +664,20 @@
 												<div class="col-6 col-12-medium">
 													<h4>What Worked Well</h4>
 													<ul>
-														<li>Lesson 1</li>
-														<li>Lesson 2</li>
-														<li>Lesson 3</li>
-													</ul>
+														<li>We developed detailed user personas early, which helped us create realistic, relevant tasks.</li>
+														<li>Running moderated sessions allowed us to observe subtle user frustrations in real-time.</li>
+														<li>Working as a team of four allowed us to divide tasks efficiently: moderation, note-taking, and analysis.</li>
+														<li>We gathered useful qualitative insights that led to actionable recommendations without needing to build a prototype.</li>
+													  </ul>
 												</div>
 												<div class="col-6 col-12-medium">
 													<h4>What I'd Do Differently</h4>
 													<ul>
-														<li>Improvement 1</li>
-														<li>Improvement 2</li>
-														<li>Improvement 3</li>
+														<li>Recruit more than 6 participants, which would allow for more insight into how effective the current app is.</li>
+														<li>Recruit a more diverse range of participants to avoid over-relying on a college-student demographic.</li>
+														<li>Visualize insights with mockups to support recommendations.</li>
+														<li>Add more tasks for users to complete, as there were some parts of the app we did not gert to test.</li>
+														<li>Record more than two critical incidents per participant.</li>
 													</ul>
 												</div>
 											</div>
@@ -331,12 +690,14 @@
 									<div class="row">
 										<div class="col-12">
 											<h3 style="color: #333; border-bottom: 2px solid #38b2ac; padding-bottom: 0.5em; margin-bottom: 1.5em;">Next Steps</h3>
-											<p>Future improvements and iterations planned for this project.</p>
-											<ul>
-												<li>Next step 1</li>
-												<li>Next step 2</li>
-												<li>Next step 3</li>
-											</ul>
+											<p>While this was completed for a class, if it were to be an actual commercial project these are some of the next steps I would take:</p>
+											<ul style="margin-top: 1em;">
+												<li><strong>Develop low-fidelity wireframes</strong> to explore solutions for the most critical usability issues, such as saving trails or organizing trail lists.</li>
+												<li><strong>Conduct follow-up testing</strong> using updated tasks and proposed interface changes to validate whether the recommendations improve performance.</li>
+												<li><strong>Expand participant demographics</strong> beyond college students to include parents, older adults, and casual outdoor users for broader insight.</li>
+												<li><strong>Collaborate with designers</strong> to create polished UI mockups that address both visual clarity and accessibility best practices.</li>
+												<li><strong>Present findings to stakeholders</strong> to make the case for design changes and begin the process of actually implementing the ideas within the app.</li>
+											  </ul>
 										</div>
 									</div>
 								</section>
@@ -345,12 +706,12 @@
 								<section style="text-align: center; margin-bottom: 2em;">
 									<div class="row">
 										<div class="col-12">
-											<h3>Want to see more?</h3>
 											<p><a href="#work" class="button primary">View More Projects</a> <a href="#contact" class="button">Get In Touch</a></p>
 										</div>
 									</div>
 								</section>
 							</article>
+
 						<!-- Contact -->
 							<article id="contact" class="panel">
 								<header>
