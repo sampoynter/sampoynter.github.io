@@ -369,6 +369,14 @@
 									</div>
 								</section>
 
+								<!-- Download Full Report -->
+								<section style="margin-bottom: 4em; text-align: center;">
+									<h3 style="color: #333; margin-bottom: 1em;">Want to read the full report?</h3>
+									<a href="assets/reports/MI350 - Assignment 4.pdf" target="_blank" class="button primary">
+									View Full PDF Report
+									</a>
+								</section>
+
 								<!-- Call to Action -->
 								<section style="text-align: center; margin-bottom: 2em;">
 									<div class="row">
@@ -456,14 +464,16 @@
 										</div>
 										<div>
 											<p>We began this section with every member of our group completing their own seperate evaluations, and then we consolidated our evaluations into one document. Combined, our team came up with 23 heuristic violations; however, for the sake of this portfolio I will only include violations that I personally found. Note that these are not all of the heuristics I found, and the full report will be linked at the bottom of this page.</p>
+											<img src="images/1*2Fa5TSlcyNLCVMev6TT_jQ.png" alt="Heuristic Evaluation Severity Scale" class="image fit" style="max-height: 300px; object-fit: contain; margin-bottom: 1.5em;">
 										</div>
 									</div>
+
 									 <!-- Heuristic Cards -->
 									<div class="row">
 
 										<!-- SP01: Visibility of System Status -->
 										<div class="col-6 col-12-medium" style="margin-bottom: 2em;">
-										<div style="background: #faf5f0; padding: 1.5em; border-left: 4px solid #ed8936; border-radius: 6px;">
+										<div style="background: #faf5f0; padding: 1.5em; border-left: 4px solid #ffd966; border-radius: 6px;">
 											<h4 style="margin-bottom:0.5em;">User Control and Freedom</h4>
 											<p><strong>Severity:</strong> 2</p>
 											<p><strong>Location:</strong> "Who can find you with your number" page</p>
@@ -474,7 +484,7 @@
 
 										<!-- SP02: User Control and Freedom -->
 										<div class="col-6 col-12-medium" style="margin-bottom: 2em;">
-										<div style="background: #fff5f5; padding: 1.5em; border-left: 4px solid #f56565; border-radius: 6px;">
+										<div style="background: #faf5f0; padding: 1.5em; border-left: 4px solid #ffd966; border-radius: 6px;">
 											<h4 style="margin-bottom:0.5em;">Recognition Rather Than Recall</h4>
 											<p><strong>Severity:</strong> 2</p>
 											<p><strong>Location:</strong> "Chats" page</p>
@@ -485,7 +495,7 @@
 
 										<!-- SP03: Error Prevention -->
 										<div class="col-6 col-12-medium" style="margin-bottom: 2em;">
-										<div style="background: #f0f9ff; padding: 1.5em; border-left: 4px solid #4299e1; border-radius: 6px;">
+										<div style="background: #f6f0e8; padding: 1.5em; border-left: 4px solid #ff9800; border-radius: 6px;">
 											<h4 style="margin-bottom:0.5em;">Error Prevention</h4>
 											<p><strong>Severity:</strong> 3</p>
 											<p><strong>Location:</strong> “Notifications” section of settings</p>
@@ -496,7 +506,7 @@
 
 										<!-- SP05: Recognition Rather Than Recall -->
 										<div class="col-6 col-12-medium" style="margin-bottom: 2em;">
-											<div style="background: #f5f1fe; padding: 1.5em; border-left: 4px solid #9f7aea; border-radius: 6px;">
+											<div style="background: #faf5f0; padding: 1.5em; border-left: 4px solid #ffd966; border-radius: 6px;">
 											<h4 style="margin-bottom:0.5em;">Help and Documentation</h4>
 											<p><strong>Severity:</strong> 2</p>
 											<p><strong>Location:</strong> Advanced privacy settings</p>
@@ -513,114 +523,134 @@
 										<div class="col-12">
 											<h3 style="color: #333; border-bottom: 2px solid #48bb78; padding-bottom: 0.5em; margin-bottom: 1.5em;">Cognitive Walkthroughs</h3>
 										</div>
+										<p>A cognitive walkthough is a usability evaluation method that assesses how easily a new user can complete can complete specific tasks within an interface. We used this method to identify points of confusion or friction in Signal's core workflows, focusing on whether first-time users could navigate features without prior knowledge or external help. This allowed us to evaluate the app’s learnability and surface-level intuitiveness, especially for functions related to adding new contacts.</p>
+										<p><strong>Note:</strong> Successful steps will be green, and unsuccessful steps will be red.</p>
 									</div>
-									<div class="row">
-										<div class="col-6 col-12-medium">
-											<h4>Methodology</h4>
+									<!-- Cognitive Walkthrough: Task 1 -->
+										<div class="row" style="margin-top: 2em;">
+											<div class="col-12">
+											<div>
+											<h2 style="text-align: center;">Task 1: Verify Authenticity of Contacts</h2>
+											</div>
+											<p><strong>Objective:</strong> Evaluate if a first-time user can successfully verify a contact’s safety number to confirm secure end-to-end encryption.</p>
+											
+											<div style="background: #d9eee1; padding: 1.5em; border-left: 4px solid #48bb78; border-radius: 6px; margin-bottom: 2em;">
+											<h5 style="margin-top: 1.5em;">Step 1: Navigate to Contact List</h5>
 											<ul>
-												<li>6 Participants - This number was chosen mostly because it was the required number for this assignment.</li>
-												<li>Convenience sampling - Due to the time constraints for this project, this was the only way we cold recruit participants. All participants were Michigan State students betwen 20-25 years old and had experience with mobile apps.</li>
-												<li>In-person and Zoom sessions - Every session included a moderator to facilitate the study and answer questions, as well as a note-taker to observe and record the actions, behaviors, and responses of participants.</li>
-												<li>Session recordings - Each session was documented using an audio recording, allowing for insights to be evidence based.</li>
+												<li><strong>1. Will the users try to achieve the right effect?</strong> Yes, by opening the app the user will be presented with the correct page.</li>
+												<li><strong>2. Will the user notice that the correct action is available?</strong> Yes, the contact/messaging page shows users a list of people they’ve spoken with or called on the app.</li>
+												<li><strong>3. Will the user associate the correct action with the effect they are trying to achieve?</strong> Yes, they will see a list of people they can find safety numbers for by navigating to this page.</li>
+												<li><strong>4. If the correct action is performed, will the user see that progress is being made toward the goal of the task?</strong> Most likely, aside from having a separate “Contacts” page, the “Chats” page does a good job of showing users the individuals they can find safety numbers for.</li>
 											</ul>
-										</div>
-										<div class="col-6 col-12-medium">
-											<h4>Task Descriptions</h4>
-											<p>These tasks were chosen based off of user personas. We tried to emphasize tasks that would help the personas achieve their goals.</p>
-											<ul>
-												<li>Find a dog-friendly trail and check the conditions</li>
-												<li>Locate Sleepy Hollow State Park and see if a pass or fee is required (without using the search function)</li>
-												<li>Mark a nearby trail as complete and leave a simple review</li>
-												<li>Create a new trail list and add an out of state trail</li>
-											</ul>
-										</div>
-									</div>
-								</section>
+											</div>
 
-								<!-- Results -->
-								<section style="margin-bottom: 4em;">
-									<div class="row">
-										<div class="col-12">
-											<h3 style="color: #333; border-bottom: 2px solid #9f7aea; padding-bottom: 0.5em; margin-bottom: 1.5em;">Results</h3>
+											<div style="background: #d9eee1; padding: 1.5em; border-left: 4px solid #48bb78; border-radius: 6px; margin-bottom: 2em;">
+											<h5 style="margin-top: 1.5em;">Step 2: Click on a Direct Message</h5>
+											<ul>
+												<li><strong>1. Will the users try to achieve the right effect?</strong> Yes.</li>
+												<li><strong>2. Will the user notice that the correct action is available?</strong> Yes, in most messaging apps, clicking on a person's name will open the messages with them, so it is intuitive.</li>
+												<li><strong>3. Will the user associate the correct action with the effect they are trying to achieve?</strong> Yes, if the user is attempting to open a direct message, the user will click on the direct message.</li>
+												<li><strong>4. If the correct action is performed, will the user see that progress is being made toward the goal of the task?</strong> Yes, if the direct message is clicked on, the chat will expand and show all messages, communicating to the user that the action leads to the desired result.</li>
+											</ul>
+											</div>
+
+											<div style="background: #fff5f5; padding: 1.5em; border-left: 4px solid #f56565; border-radius: 6px; margin-bottom: 2em;">
+											<h5 style="margin-top: 1.5em;">Step 3: Find Contact Information</h5>
+											<ul>
+												<li><strong>1. Will the users try to achieve the right effect?</strong> Yes.</li>
+												<li><strong>2. Will the user notice that the correct action is available?</strong> No, it is not clear that clicking on the person's name once you are within a direct message will expand more details.</li>
+												<li><strong>3. Will the user associate the correct action with the effect they are trying to achieve?</strong> No, they would most likely discover this feature on accident, because there is no icon or button that would imply that more options are available.</li>
+												<li><strong>4. If the correct action is performed, will the user see that progress is being made toward the goal of the task?</strong> Yes, if the user clicks on the name in the direct message, they will notice that another page will open up, with more options available.</li>
+											</ul>
+											</div>
+										
+											<div style="background: #d9eee1; padding: 1.5em; border-left: 4px solid #48bb78; border-radius: 6px; margin-bottom: 2em;">
+											<h5 style="margin-top: 1.5em;">Step 4: Navigate to Safety Number</h5>
+											<ul>
+												<li><strong>1. Will the users try to achieve the right effect?</strong> Yes, by opening the app the user will be presented with the correct page.</li>
+												<li><strong>2. Will the user notice that the correct action is available?</strong> Yes, the contact/messaging page shows users a list of people they’ve spoken with or called on the app.</li>
+												<li><strong>3. Will the user associate the correct action with the effect they are trying to achieve?</strong> Yes, they will see a list of people they can find safety numbers for by navigating to this page.</li>
+												<li><strong>4. If the correct action is performed, will the user see that progress is being made toward the goal of the task?</strong> Most likely, aside from having a separate “Contacts” page, the “Chats” page does a good job of showing users the individuals they can find safety numbers for.</li>
+											</ul>
+											</div>
+										
+											<p style="margin-top: 1.5em;"><strong>Insight:</strong> While most of the task flow is intuitive to new users, we found there was an issue with tapping a contact’s name within a direct message to show contact information. While I think this may be intuitive to some users that more information can be found by clicking on the name, in the context of trying to verify a safety number it can be confusing. Improving the visibility of this feature, through an icon that shows up the first time opening a message for a new user or a more conventional menu would make this critical security feature more discoverable and easier to complete.</p>
+											</div>
 										</div>
-									</div>
-									
-									<!-- Usability Aspect Reports -->
-									<div class="row" style="margin-bottom: 3em;">
-										<div class="col-12">
-											<h4>Usability Aspect Reports</h4>
-											<p>We tracked and analyzed critical usability issues observed during user testing. These findings helped us understand where users struggled and informed our recommendations for improvement. In total, we created 12 of these usability aspect reports. I have included a few of the most important critical isues below.</p>
-											<!-- Issue #1 -->
-											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #68d391; margin-bottom: 2em; border-radius: 6px;">
-												<h5 style="margin-bottom: 0.5em;">Issue: Inconsistent “Passes & Fees” Section</h5>
-												<p><strong>Observed During:</strong> Task 2</p>
-												<p><strong>What Happened:</strong> Some participants couldn't locate the "Passes & Fees" section on specific trails. There was also an issue of fee amounts not being displayed. These inconsistencies led to confusion and task failure.</p>
-												<p><strong>Why It Matters:</strong> Missing fee information could result in users being unprepared, leading to poor user trust or legal issues (e.g., tickets).</p>
-												<p><strong>Recommendation:</strong> Always display the "Passes & Fees" section—even if no info is available—along with a note like "No fees required." Include the dollar amount of passes and fees to avoid unpreparedness.</p>
-												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin: 2em 0;">
-													“Maybe it only shows it if the trail actually requires a pass, I can't find this section anywhere in the trail information”
-												  </blockquote>
-												  
-											  </div>
-											<!-- Issue #2 -->
-											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #f6ad55; margin-bottom: 2em; border-radius: 6px;">
-												<h5 style="margin-bottom: 0.5em;">Issue: Add-to-List Button Missing or Hidden</h5>
-												<p><strong>Observed During:</strong> Task 4</p>
-												<p><strong>What Happened:</strong> Users had difficulty adding a trail to a list because the “add” or “save” button was either missing or not discoverable on the trail page.</p>
-												<p><strong>Why It Matters:</strong> Adding trails to lists is a core function of the app. If users can’t locate this button, it undermines the organizational features AllTrails promotes.</p>
-												<p><strong>Recommendation:</strong> Ensure every trail page includes a clearly labeled and visible "Save to List" button near the top of the interface.</p>
-												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin-top: 1em;">
-												“The popular trails are added to the list, but I’m not sure how to add this one… I don’t know where the thingy is for this one.”
-												</blockquote>
+										<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5em; margin: auto;">
+											<img src="images/Task1Step1.png" alt="Task 1 Step 1" style="width: 65%; height: auto; border-radius: 6px;" />
+											<img src="images/Task1Step2.png" alt="Task 1 Step 2" style="width: 65%; height: auto; border-radius: 6px;" />
+											<img src="images/Task1Step3.png" alt="Task 1 Step 3" style="width: 65%; height: auto; border-radius: 6px;" />
+											<img src="images/Task1Step4.png" alt="Task 1 Step 4" style="width: 65%; height: auto; border-radius: 6px;" />
+										  </div>
+
+										<!-- Cognitive Walkthrough: Task 2 -->
+										<div class="row" style="margin-top: 2em;">
+											<div class="col-12">
+											<div>
+											<h2 style="text-align: center;">Task 2: Add a new contact through "New Messages"</h2>
 											</div>
+											<p><strong>Objective:</strong> Evaluate if a first-time user can successfully add a new contact through the "New Messages" screen.</p>
 											
-											
-											<!-- Issue #3 -->
-											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #63b3ed; margin-bottom: 2em; border-radius: 6px;">
-												<h5 style="margin-bottom: 0.5em;">Issue: Trail Results Organization Confusing</h5>
-												<p><strong>Observed During:</strong> Task 1</p>
-												<p><strong>What Happened:</strong> Participants were unsure whether trail results were ordered by distance, difficulty, or rating. This led to hesitation and second-guessing during the trail selection process.</p>
-												<p><strong>Why It Matters:</strong> If users don’t understand how results are sorted, it adds cognitive load and can make the app feel unpredictable or disorganized.</p>
-												<p><strong>Recommendation:</strong> Clarify how trail results are ordered—e.g., by default sort, distance, rating, or difficulty—using labels or tooltips above the result list.</p>
-												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin-top: 1em;">
-												“I got confused… is it based on how far away it is, or how long it is, or the star rating?”
-												</blockquote>
+											<div style="background: #d9eee1; padding: 1.5em; border-left: 4px solid #48bb78; border-radius: 6px; margin-bottom: 2em;">
+											<h5 style="margin-top: 1.5em;">Step 1: Navigate to "New Messages"</h5>
+											<ul>
+												<li><strong>1. Will the users try to achieve the right effect?</strong> Yes, the symbol used to open the “new message” prompt is generally used across platforms to create a draft.</li>
+												<li><strong>2. Will the user notice that the correct action is available?</strong> Yes, it is visible and clear.</li>
+												<li><strong>3. Will the user associate the correct action with the effect they are trying to achieve?</strong> Yes, the page is titled correctly.</li>
+												<li><strong>4. If the correct action is performed, will the user see that progress is being made toward the goal of the task?</strong> Yes.</li>
+											</ul>
 											</div>
-											
-											<!-- Issue #4 -->
-											<div style="background: #f9f9f9; padding: 1.5em; border-left: 4px solid #fc8181; margin-bottom: 2em; border-radius: 6px;">
-												<h5 style="margin-bottom: 0.5em;">Issue: Can't End a Custom Hike</h5>
-												<p><strong>Observed During:</strong> Task 4 (accidental)</p>
-												<p><strong>What Happened:</strong> One user accidentally started a custom hike while trying to add a trail to a list and then couldn’t figure out how to stop the hike once they left the “Navigate” screen.</p>
-												<p><strong>Why It Matters:</strong> Unintended activity tracking may result in inaccurate data, battery drain, or user frustration—especially if they don’t know the app is still running in the background.</p>
-												<p><strong>Recommendation:</strong> Add a persistent mini-widget or indicator that allows users to pause/end a hike from any screen, or confirm start/stop more clearly within the Navigation UI.</p>
-												<blockquote style="font-style: italic; color: #555; border-left: 4px solid #ed8936; padding-left: 1em; margin-top: 1em;">
-												“I’m stuck on the map. How do I get off the custom map now?”
-												</blockquote>
+
+											<div style="background: #fff5f5; padding: 1.5em; border-left: 4px solid #f56565; border-radius: 6px; margin-bottom: 2em;">
+											<h5 style="margin-top: 1.5em;">Step 2: Click on a Direct Message</h5>
+											<ul>
+												<li><strong>1. Will the users try to achieve the right effect?</strong> Yes, it is immediately visible at the top of the “new message” window in a text box related to “contacts.”</li>
+												<li><strong>2. Will the user notice that the correct action is available?</strong> Yes, it is properly titled and clearly interactable.</li>
+												<li><strong>3. Will the user associate the correct action with the effect they are trying to achieve?</strong> No, it is not generally surmisable that this will relocate to a window to add new contacts in the app.</li>
+												<li><strong>4. If the correct action is performed, will the user see that progress is being made toward the goal of the task?</strong> Yes, a new page is opened that directs them to the next step.</li>
+											</ul>
 											</div>
+
+											<div style="background: #fff5f5; padding: 1.5em; border-left: 4px solid #f56565; border-radius: 6px; margin-bottom: 2em;">
+											<h5 style="margin-top: 1.5em;">Step 3: Find Desired Contact Using the Search Bar</h5>
+											<ul>
+												<li><strong>1. Will the users try to achieve the right effect?</strong> No, the search bar freezes when in use.</li>
+												<li><strong>We did not need to assess this step more, as it already produced a critical error</strong></li>
+											</ul>
+											</div>
+										
+											<div style="background: #fff5f5; padding: 1.5em; border-left: 4px solid #f56565; border-radius: 6px; margin-bottom: 2em;">
+											<h5 style="margin-top: 1.5em;">Step 4: Select and Add New Contact</h5>
+											<ul>
+												<li><strong>1. Will the users try to achieve the right effect?</strong> Yes, if not using the search bar. The list is clear and interactable.</li>
+												<li><strong>2. Will the user notice that the correct action is available?</strong> Yes, the buttons are observably interactable.</li>
+												<li><strong>3. Will the user associate the correct action with the effect they are trying to achieve?</strong> Yes.</li>
+												<li><strong>4. If the correct action is performed, will the user see that progress is being made toward the goal of the task?</strong> No, once clicking done there is no indication that the user’s action did anything or confirmation that the contacts were added. The window just closes.</li>
+											</ul>
+											</div>
+										
+											<p style="margin-top: 1.5em;"><strong>Insight:</strong> While the task of adding a new contact through “New Messages” begins with a familiar and clearly labeled entry point, users encounter several usability issues as they progress. The pathway to add a contact is not intuitive, as users may not realize that clicking into the contact input field opens a new screen for contact management, due to a lack of visual cues or guidance. Additionally, the search functionality within that screen is unreliable, freezing during use and preventing users from locating contacts. Finally, after selecting a contact, the app offers no confirmation or feedback that the action was successful, leaving users unsure if the contact was added. These issues highlight gaps in discoverability, error prevention, and visibility of system status, which collectively hinder task completion and user confidence.</p>
+											</div>
+										</div>
+										<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5em; margin: auto;">
+											<img src="images/Task2Step1.png" alt="Task 2 Step 1" style="width: 65%; height: auto; border-radius: 6px;" />
+											<img src="images/Task2Step2.png" alt="Task 2 Step 2" style="width: 65%; height: auto; border-radius: 6px;" />
+											<img src="images/Task2Step3.png" alt="Task 2 Step 3" style="width: 65%; height: auto; border-radius: 6px;" />
+											<img src="images/Task2Step4.png" alt="Task 2 Step 4" style="width: 65%; height: auto; border-radius: 6px;" />
+										</div>
   
-											  
-										</div>
-									</div>
-									
-									<!-- Summary Table -->
-									<div class="row" style="margin-bottom: 3em;">
-										<div class="col-12">
-											<h4>Summary Table</h4>
-											<p>In the table below, each participant was evaluated on a success/failure basis. A success is
-												defined as completing the given task without requiring assistance, and a failure is defined as requiring additional help from the moderator in order to complete the given task.</p>
-											<img src="images/Summary_Table.png" alt="Summary table for study results" class="image fit">
-										</div>
-									</div>
+								
 								</section>
 
+		
 								<!-- Recommendations -->
 								<section style="margin-bottom: 4em;">
 									<div class="row">
 									<div class="col-12">
 										<h3 style="color: #333; border-bottom: 2px solid #38b2ac; padding-bottom: 0.5em; margin-bottom: 1.5em;">Recommendations</h3>
 										<p style="font-size: 1.1em; line-height: 1.6em;">
-										Based on our usability study, we identified several actionable ways to improve consistency, feature accessibility, and user feedback within the AllTrails mobile app.
+										Based on our cognitive walkthrough and heuristic evaluation of the Signal app, we identified a range of usability challenges related to feature discoverability, interface consistency, and system feedback. These issues impact task success, particularly when users attempt to add new contacts or receive calls. The following recommendations aim to improve task flow clarity, interface predictability, and user confidence in completing core actions within the app.
 										</p>
 									</div>
 									</div>
@@ -629,78 +659,82 @@
 									<div class="col-6 col-12-medium">
 										<h4>Usability Improvements</h4>
 										<ul>
-										<li><strong>Unify page structure:</strong> Ensure all trail pages display standard sections like “Passes and Fees,” even when data is unavailable. Use placeholder text (such as “No fees listed for this trail.”).</li>
-										<li><strong>Clarify sorting of trail lists:</strong> Show users how results are organized (e.g., distance, popularity) to reduce confusion.</li>
-										<li><strong>Rename “Saved” tab to “Lists”:</strong> Makes the feature’s purpose clearer and easier to locate.</li>
-										<li><strong>Make the “Save to List” button consistent:</strong> Ensure users can add trails from any trail page, not just from popular listings.</li>
-										<li><strong>Improve interface consistency:</strong> Parks and trails should share a consistent layout and button options.</li>
-										<li><strong>Rename buttons for clarity:</strong> For example, label the download button as “Download Map” to avoid confusion with saving or bookmarking.</li>
-										<li><strong>Add an “End Hike” button:</strong> Provide an easy way to stop a hike once started. Consider a floating widget with “pause/end” functionality.</li>
-										<li><strong>Enhance feedback indicators:</strong> Lengthen the duration of review submission confirmation popups to reassure users their action was successful.</li>
+										<li><strong>Fix search bar freezing:</strong> Ensure the search bar in the “New Messages” screen functions properly to prevent task failure when searching for a contact.</li>
+										<li><strong>Add feedback for contact addition:</strong> After clicking “Done,” provide a confirmation popup or visual indication that a contact was successfully added.</li>
+										<li><strong>Introduce direct contact add option:</strong> Allow users to add new contacts from the app settings or a dedicated “Contacts” page without needing to initiate a message.</li>
+										<li><strong>Clarify action pathways:</strong> Update the labeling and behavior of the “contacts” field in the “New Messages” screen to clearly indicate that it can be used to add new contacts.</li>
 										</ul>
 									</div>
 								
 									<div class="col-6 col-12-medium">
 										<h4>Interface & Accessibility Enhancements</h4>
 										<ul>
-										<li><strong>Highlight sorting logic visually:</strong> Bold or label what each trail list is sorted by (e.g., “Sorted by distance”).</li>
-										<li><strong>Improve visibility of key buttons:</strong> Relocate or emphasize hard-to-find actions like “mark as complete.”</li>
-										<li><strong>Use industry standards:</strong> Apply clear navigation, back options, and icon labels to meet user expectations.</li>
-										<li><strong>Label trail actions clearly:</strong> For instance, users should not be able to leave a review without also marking a trail complete.</li>
-										<li><strong>Address premium feature confusion:</strong> Make it more obvious which features are paid vs. free, especially around downloads.</li>
+										<li><strong>Improve system feedback:</strong> Provide clearer and more consistent visual feedback when user actions are completed (e.g., adding contacts, sending messages).</li>
+										<li><strong>Standardize navigation:</strong> Unify the behavior of profile and navigation icons across all major app sections to avoid confusion and unexpected menu changes.</li>
+										<li><strong>Enhance error prevention:</strong> Clarify which features require acceptance (e.g., message requests) and ensure that users in contact lists do not face unnecessary barriers to communication.</li>
+										<li><strong>Add tutorial for new users:</strong> Incorporate a brief onboarding or guided tutorial to explain key features like adding contacts, starting calls, and navigating safety settings.</li>
 										</ul>
 									</div>
 									</div>
-								
-									
 								</section>
+  
 
 								<!-- Lessons Learned -->
 								<section style="margin-bottom: 4em;">
 									<div class="row">
-										<div class="col-12">
-											<h3 style="color: #333; border-bottom: 2px solid #9f7aea; padding-bottom: 0.5em; margin-bottom: 1.5em;">Lessons Learned</h3>
-											<div class="row">
-												<div class="col-6 col-12-medium">
-													<h4>What Worked Well</h4>
-													<ul>
-														<li>We developed detailed user personas early, which helped us create realistic, relevant tasks.</li>
-														<li>Running moderated sessions allowed us to observe subtle user frustrations in real-time.</li>
-														<li>Working as a team of four allowed us to divide tasks efficiently: moderation, note-taking, and analysis.</li>
-														<li>We gathered useful qualitative insights that led to actionable recommendations without needing to build a prototype.</li>
-													  </ul>
-												</div>
-												<div class="col-6 col-12-medium">
-													<h4>What I'd Do Differently</h4>
-													<ul>
-														<li>Recruit more than 6 participants, which would allow for more insight into how effective the current app is.</li>
-														<li>Recruit a more diverse range of participants to avoid over-relying on a college-student demographic.</li>
-														<li>Visualize insights with mockups to support recommendations.</li>
-														<li>Add more tasks for users to complete, as there were some parts of the app we did not gert to test.</li>
-														<li>Record more than two critical incidents per participant.</li>
-													</ul>
-												</div>
-											</div>
+									<div class="col-12">
+										<h3 style="color: #333; border-bottom: 2px solid #9f7aea; padding-bottom: 0.5em; margin-bottom: 1.5em;">Lessons Learned</h3>
+										<div class="row">
+										<div class="col-6 col-12-medium">
+											<h4>What Worked Well</h4>
+											<ul>
+											<li>Using Nielsen’s heuristics gave us a structured and repeatable framework to evaluate usability issues.</li>
+											<li>The cognitive walkthrough allowed us to view the app through the lens of a first-time user and uncover gaps in learnability.</li>
+											<li>Breaking down tasks step-by-step made it easier to pinpoint where confusion or friction occurred in the user journey.</li>
+											<li>Our recommendations directly tied to observed usability breakdowns, which helped us form clear, actionable suggestions.</li>
+											<li>Each team member doing individual heuristic evaluations allowed for more discoveries and put emphasis on repeated violations.</li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-medium">
+											<h4>What I'd Do Differently</h4>
+											<ul>
+											<li>Include more user perspectives through usability testing to validate the issues found in heuristic and walkthrough evaluations.</li>
+											<li>Explore visual design solutions such as wireframes to better communicate how recommended changes might appear in-app.</li>
+											<li>Spend more time exploring accessibility elements like text labels, icon contrast, and voiceover compatibility.</li>
+											<li>Conduct walkthroughs on both iOS and Android to compare consistency and user experience across platforms.</li>
+											</ul>
+										</div>
 										</div>
 									</div>
+									</div>
 								</section>
+  
 
 								<!-- Next Steps -->
 								<section style="margin-bottom: 4em;">
 									<div class="row">
-										<div class="col-12">
-											<h3 style="color: #333; border-bottom: 2px solid #38b2ac; padding-bottom: 0.5em; margin-bottom: 1.5em;">Next Steps</h3>
-											<p>While this was completed for a class, if it were to be an actual commercial project these are some of the next steps I would take:</p>
-											<ul style="margin-top: 1em;">
-												<li><strong>Develop low-fidelity wireframes</strong> to explore solutions for the most critical usability issues, such as saving trails or organizing trail lists.</li>
-												<li><strong>Conduct follow-up testing</strong> using updated tasks and proposed interface changes to validate whether the recommendations improve performance.</li>
-												<li><strong>Expand participant demographics</strong> beyond college students to include parents, older adults, and casual outdoor users for broader insight.</li>
-												<li><strong>Collaborate with designers</strong> to create polished UI mockups that address both visual clarity and accessibility best practices.</li>
-												<li><strong>Present findings to stakeholders</strong> to make the case for design changes and begin the process of actually implementing the ideas within the app.</li>
-											  </ul>
-										</div>
+									<div class="col-12">
+										<h3 style="color: #333; border-bottom: 2px solid #38b2ac; padding-bottom: 0.5em; margin-bottom: 1.5em;">Next Steps</h3>
+										<p>While this project was completed for a class, if it were to continue in a professional setting, these are the next steps I would pursue:</p>
+										<ul style="margin-top: 1em;">
+										<li><strong>Create annotated wireframes</strong> to visually demonstrate improvements to discoverability and user feedback for contact management flows.</li>
+										<li><strong>Prototype interaction fixes</strong> such as improved button labels and confirmation messages to test usability before implementation.</li>
+										<li><strong>Conduct usability tests</strong> with a broader range of users to validate that updates address the key friction points identified.</li>
+										<li><strong>Meet with development and design teams</strong> to review technical feasibility and refine designs based on platform guidelines.</li>
+										<li><strong>Audit accessibility</strong> for issues like contrast, icon labeling, and screen reader support to ensure inclusive design across devices.</li>
+										</ul>
+									</div>
 									</div>
 								</section>
+								
+								<!-- Download Full Report -->
+								<section style="margin-bottom: 4em; text-align: center;">
+									<h3 style="color: #333; margin-bottom: 1em;">Want to read the full report?</h3>
+									<a href="assets/reports/MI350 - Assignment 2.pdf" target="_blank" class="button primary">
+									View Full PDF Report
+									</a>
+								</section>
+  
 
 								<!-- Call to Action -->
 								<section style="text-align: center; margin-bottom: 2em;">
